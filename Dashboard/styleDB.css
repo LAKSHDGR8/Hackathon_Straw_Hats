@@ -1,0 +1,60 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the dashboard */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the user information section */
+.user-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+/* Style the feedback section */
+.feedback {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 600px;
+    background-color: #f7f7f7;
+}
+
+/* Style the header */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the subheadings */
+h2 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Style the list of feedback entries */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Add hover effect to feedback list items */
+li:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
